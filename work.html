@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/master.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="maincard">
+        <div class="card">
+          <div>
+            <figure>
+              <img src="assets/img/chip.png" alt="" />
+            </figure>
+            <figure>
+              <img src="assets/img/visa.png" alt="" />
+            </figure>
+          </div>
+          <div class="spans">
+            <span id="firstN">****</span>
+            <span id="secondN">****</span>
+            <span id="thirdN">****</span>
+            <span id="fourthN">****</span>
+          </div>
+          <div>
+            <div>
+              <span>card holder</span>
+              <h2 id="fullname">full name</h2>
+            </div>
+            <div>
+              <span>expires</span>
+              <div>
+                <span id="mm1">mm</span>
+                <span>/</span>
+                <span id="yy">yy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="back_card">
+          <div></div>
+          <div>
+            <span id="backcvv">cvv2</span>
+          </div>
+          <div></div>
+          <div>
+            <figure>
+              <img src="assets/img/visa (1).png" alt="" />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <div class="option">
+        <div class="inputs">
+          <label for="">card number</label>
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+        </div>
+        <div>
+          <label for="">card holder</label>
+          <input type="text" id="name" />
+        </div>
+        <div>
+          <label for="">expiration date</label>
+          <select name="" id="month">
+            <option value="MM">month</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+            <option value="07">07</option>
+            <option value="08">08</option>
+            <option value="09">09</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+          <select name="" id="year">
+            <option value="YY">year</option>
+            <option value="23">2023</option>
+            <option value="24">2024</option>
+            <option value="25">2025</option>
+            <option value="26">2026</option>
+            <option value="27">2027</option>
+            <option value="28">2028</option>
+            <option value="29">2029</option>
+            <option value="30">2030</option>
+          </select>
+        </div>
+        <div>
+          <label for="">cvv2</label>
+          <input type="text" id="cvv2" />
+        </div>
+        <div>
+          <button>submit</button>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="assets/js/master.js"></script>
+</html>
