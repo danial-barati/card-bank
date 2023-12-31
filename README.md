@@ -2,7 +2,7 @@
 
 ** a card bank with html css and js **
 
-![view](https://github.com/danial-barati/card-bank/assets/104683176/a56caa52-9d66-4bca-8d90-96aab22d555f)
+![view](https://github.com/danial-barati/card-bank/assets/104683176/4bd8dcfb-3dfa-429c-9dcb-610d0c63d85a)
 
 - 🔗 [demo]( https://danial-barati.github.io/accordian/)
 
